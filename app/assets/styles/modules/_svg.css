@@ -1,0 +1,25 @@
+.bg {
+	position: absolute;
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+#ftmSVG {
+	display: none;
+
+	@mixin atLarge {
+		display: block;
+	}
+}
+
+#ftmSVGm {
+	display: block;
+	padding-bottom: 18vh;
+
+	@mixin atLarge {
+		display: none;
+	}
+}

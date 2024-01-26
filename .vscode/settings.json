@@ -1,0 +1,11 @@
+{
+	// "css.lint.argumentsInColorFunction": "ignore",
+	// "css.lint.emptyRules": "ignore",
+	// "css.lint.hexColorLength": "warning",
+	"files.associations": {
+		"*.css": "postcss"
+	},
+	"scss.lint.emptyRules": "ignore",
+	"scss.lint.hexColorLength": "ignore",
+	"postcss.validate": false
+}
